@@ -1,0 +1,60 @@
+/* html {
+    background-color: rgb(245, 123, 188);
+} */
+ body  {
+    background-color: rgb(216, 212, 207);
+       }
+header {
+    text-align: center; /*căn giữa cho chữ */
+    /* background-color: aqua; */
+    /* padding: 30px; */
+       }   
+h1  {
+    color: red;
+    
+    }
+nav {
+    background-color: rgb(60, 98, 132);
+    }
+nav ul {
+    display: flex; /*tự động xếp nằm ngang (thay vì dọc như mặc định).*/
+    list-style: none; /*loai bo dau cham o dau list .*/
+    justify-content: center; /*Các mục trong thanh điều hướng sẽ nằm giữa trang theo chiều ngang.*/
+       }
+nav li {
+    margin: 5px 10px;
+    
+       }
+nav a  {
+    color: aqua;
+    text-decoration: none; /*Dùng để bỏ các hiệu ứng trang trí chữ mặc định, đặc biệt là gạch chân của liên kết <a>.*/
+       }
+nav a:hover {
+    color: rgb(46, 137, 137);
+            }
+section {
+    padding: 5px 15px ;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+        }
+p{
+    color: rgb(43, 60, 147);
+ }
+form {
+    display: flex; /*tự động xếp nằm ngang (thay vì dọc như mặc định).*/
+    flex-direction: column; /*Các thẻ <label> và <input> trong form sẽ xếp dọc xuống dưới nhau*/
+    max-width: 250px; /*do rong lon nhat*/
+     }
+form button {
+    background-color: greenyellow
+            }
+form button:hover {
+    color : rgb(53, 195, 53);
+                  }
+label {
+    margin: 5px 0px ;
+      }
+button {
+    margin: 5px 0px ;
+       }
